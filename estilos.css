@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+header#cabecalho h1 {
+    font-size: 30px;
+}
+header#cabecalho h2 {
+    font-size: 20px;
+}
+footer#rodape {
+    text-align: center;
+}
+
+/* Formatação do menu principal */
+
+nav#menu ol {
+	list-style: none;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+}
+nav#menu li{
+    display: inline-block;
+    padding: 10px;
+    margin: 3px;
+    padding-right: 2px;
+    padding-top: 30px;
+    font-size: 20px;
+}
